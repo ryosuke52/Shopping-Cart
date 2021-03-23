@@ -11,7 +11,7 @@ export const UsersReducer = (state = initialState.users, action) => {
         case Actions.SIGN_OUT:
             return {
                 //...action.payload
-                ...initialState.users,
+                ...initialState.users, 
             };
         case Actions.FETCH_PRODUCTS_IN_CART:
             return {

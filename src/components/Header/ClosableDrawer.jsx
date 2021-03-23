@@ -133,7 +133,7 @@ const ClosableDrawer = (props) => {
                         onChange={inputKeyword} required={false} rows={1} value={keyword} type={"text"}
                      />
                      <IconButton>
-                         <SearchIcon onClick={() => setShowLists(true)}/>
+                         <SearchIcon/>
                      </IconButton>
                   </div>
                   <Divider />
